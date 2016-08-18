@@ -3,4 +3,4 @@
 	url = https://github.com/AlexeyBille/axit.git
 [submodule "minima"]
 	path = minima
-	url = https://github.com/AlexeyBille/axit.git
+	url = https://github.com/AlexeyBille/minima.git
