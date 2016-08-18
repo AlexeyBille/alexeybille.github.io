@@ -1,0 +1,6 @@
+[submodule "axit"]
+	path = axit
+	url = git@github.com:AlexeyBille/axit.git
+[submodule "minima"]
+	path = minima
+	url = git@github.com:AlexeyBille/minima.git
