@@ -4,3 +4,6 @@
 [submodule "minima"]
 	path = minima
 	url = https://github.com/AlexeyBille/minima.git
+[submodule "agency"]
+	path = agency
+	url = git@github.com:AlexeyBille/agency.git
