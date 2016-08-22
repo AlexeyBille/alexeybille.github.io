@@ -1,0 +1,111 @@
+/**
+ * Strips the unit from a given number-unit-combination and returns the number.
+ * @link: http://stackoverflow.com/a/12335841/1779999
+ * @usage: parse-int(10px) => 10
+ */
+/**
+ * Simply adds the em unit to a given number. This is used twice in the 
+ * function underneath, thus the need for a separate function.
+ */
+/**
+ * Calculates em values for a given list of (px or em) values and a given em 
+ * base. Multiply base values for nested em structures (last @usage example).
+ * @usage: em(10px, 1.125) => .55556em
+ *         em(24px, .875em) => 1.71429em
+ *         em(12px 0 7em rgba(0, 0, 0, .7), 1.75) => .42857em 0 4em rgba(0, 0, 0, 0.7)
+ *         em(12px) + em(3em) => 3.75em
+ *         em(23px, em(53px)) => .43396em
+ *         em(24px, 1.5 * 1.125) => .88889em
+ */
+.navbar-default {
+  background-color: white; }
+
+.navbar {
+  background-color: white !important;
+  border: none; }
+  .navbar .navbar-btn {
+    margin-top: 45px; }
+    .navbar .navbar-btn:hover, .navbar .navbar-btn:focus {
+      background-color: #4d4d4d; }
+    .navbar .navbar-btn:hover .icon-bar,
+    .navbar .navbar-btn:focus .icon-bar {
+      background-color: white; }
+  .navbar .navbar-brand {
+    line-height: 130px;
+    height: 130px;
+    padding-top: 0;
+    font-size: 2.5em;
+    font-family: Flatform;
+    font-weight: 300;
+    color: #4d4d4d; }
+  .navbar .navbar-nav li a {
+    line-height: 130px;
+    height: 130px;
+    padding-top: 0;
+    font-family: "Open Sans";
+    font-size: 1em;
+    font-weight: 400;
+    color: #4d4d4d; }
+    .navbar .navbar-nav li a:hover, .navbar .navbar-nav li a:focus {
+      background-color: white;
+      text-decoration: underline;
+      color: #4d4d4d !important; }
+
+@media (max-width: 768px) {
+  .navbar .navbar-nav li a {
+    line-height: 60px;
+    height: 60px; } }
+
+header {
+  background-image: url(../img/Layer-11.png);
+  background-size: 1920px auto;
+  background-repeat: no-repeat;
+  height: 652px;
+  padding-top: 227px;
+  text-align: center; }
+  header h1 {
+    font-family: Satellite;
+    font-size: 3.125em;
+    font-weight: 400;
+    color: #4d4d4d;
+    text-align: center; }
+  header p {
+    font-family: "Open Sans";
+    font-size: 1em;
+    font-weight: 400;
+    color: #4d4d4d;
+    text-align: center; }
+  header a {
+    font-family: "Open Sans";
+    font-size: 1.125em;
+    font-weight: 600;
+    display: inline-block;
+    height: 49px;
+    width: 290px;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    background-color: #4d4d4d;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s; }
+    header a:hover, header a:focus {
+      text-decoration: none;
+      color: #4d4d4d;
+      background-color: white; }
+
+.item-s1 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center; }
+  .item-s1 img {
+    display: inline-block; }
+  .item-s1 h3 {
+    font-family: "Open Sans";
+    font-size: 1.375em;
+    font-weight: 700; }
+  .item-s1 p {
+    font-family: "Open Sans";
+    font-size: 0.875em;
+    font-weight: 400; }
