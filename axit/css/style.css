@@ -177,9 +177,9 @@
 
 .parallax-window {
   min-height: 320px;
-  background: black;
   padding-top: 60px;
-  z-index: -10 !important; }
+  z-index: -10 !important;
+  text-align: center; }
   .parallax-window > h2 {
     text-align: center;
     color: white; }

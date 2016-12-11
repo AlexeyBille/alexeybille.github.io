@@ -1,5 +1,5 @@
 $('.parallax-window').parallax({
-    imageSrc: 'img/u25_state0.png'
+    imageSrc: 'img/u25_state0.jpg'
 });
 
 $(document).ready(function (ev) {
