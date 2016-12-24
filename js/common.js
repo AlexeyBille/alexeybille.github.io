@@ -13,6 +13,18 @@ $(document).ready(function(){
 		//анимируем переход на расстояние - top за 1500 мс
 		$('body,html').animate({scrollTop: top}, 900);
 	});
+    $(".fa-question-circle-o").hover(function(){
+        $(this).after("<div class='quest-hover'>"+$(this).attr("info")+"<div>");
+        var position = $(this).position();
+        $(this).next().css({"display":"inline",
+                           "left":position.left + 20,
+                          "top":position.top - 40}).animate({
+            top:position.top
+        },200,function(){});
+        
+    }, function(){
+        $(this).next().remove();
+    });
 });
 
 
